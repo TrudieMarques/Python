@@ -21,7 +21,7 @@ message = "Sorry, I can only invite two people for dinner."
 print(message)
 
 popped_guest = guests.pop()
-print(f"Sorry {popped_guest.title()}, I can't invite you to dinner anymore.")
+print(f"\nSorry {popped_guest.title()}, I can't invite you to dinner anymore.")
 popped_guest = guests.pop()
 print(f"Sorry {popped_guest.title()}, I can't invite you to dinner anymore.")
 popped_guest = guests.pop()
@@ -29,7 +29,7 @@ print(f"Sorry {popped_guest.title()}, I can't invite you to dinner anymore.")
 popped_guest = guests.pop()
 print(f"Sorry {popped_guest.title()}, I can't invite you to dinner anymore.")
 
-print(f"Hi {guests[0].title()}, you are still invited to dinner.")
+print(f"\nHi {guests[0].title()}, you are still invited to dinner.")
 print(f"Hi {guests[1].title()}, you are still invited to dinner.")
 
 print(guests)

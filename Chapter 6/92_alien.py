@@ -82,7 +82,7 @@
 
 
 
-#Page 96 - Removing key-value pairs !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#Page 96 - Removing key-value pairs
 
 # alien_0 = {'color': 'green', 'points': 5}
 # print(alien_0)
@@ -94,13 +94,14 @@
 
 #Page 97 - Using g() to access values
 
-alien_0 = {
-    'color': 'green',
-    'speed': 'slow'
-    }
-#Test 1
-# print(alien_0['points'])
+# alien_0 = {
+#     'color': 'green',
+#     'speed': 'slow'
+#     }
+# #Test 1
+# # print(alien_0['points'])
 
-#Test 2
-point_value = alien_0.get('points', 'No point value assigned.')
-print(point_value)
+# #Test 2
+# point_value = alien_0.get('points', 'No point value assigned.')
+# print(point_value)
+
